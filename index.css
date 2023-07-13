@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+
+body {
+    background-color: #424c59;
+}
+
+.container {
+    text-align: center;
+    margin-top: 70%;
+}
+
+.container h4 {
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-columns: repeat(auto-fill, 1fr);
+    background-color: #303944;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.plit {
+    visibility: hidden;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.score {
+    display: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: -180px;
+}
+
+.score-col {
+    color: #0867CC;
+}
